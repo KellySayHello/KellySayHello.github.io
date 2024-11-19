@@ -41,6 +41,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none; /* Removes the underline */
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
