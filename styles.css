@@ -5,12 +5,11 @@ body {
     padding: 0;
     line-height: 1.6;
     display: flex;
-    justify-content: center;   
     color: #333;
 }
 
 header {
-    background-color: #007acc;
+    background-color: #ffc7d6;
     color: white;
     padding: 1rem 0;
     text-align: center;
