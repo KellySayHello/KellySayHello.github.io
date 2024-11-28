@@ -9,11 +9,11 @@
 <body>
     <header>
         <div class="container">
-            <h1 color="black" >Chieh-Chi (Kelly) Yang</h1>
-            <img src="image.jpg" width="300">
+            <h1 style="color: black;" >Chieh-Chi (Kelly) Yang</h1>
+            <img src="image/me.jpg" width="300">
             <nav>
                 <ul>
-                    <li><a href="kellyworld3@gmail.com">Email</a></li>
+                    <li><a href="mailto:kellyworld3@gmail.com">Email</a></li>
                     <li><a href="https://www.linkedin.com/in/kelly-yang-b86284255/" target="_blank">Linkedin</a></li>
                     <li><a href="https://github.com/KellySayHello" target="_blank">Github</a></li>
                     <li><a href="https://KellySayHello.github.io/CV.pdf" target="_blank">CV</a></li>
@@ -44,9 +44,21 @@
         
         <section id="research" class="container">
             <h2>Research</h2>
-            <ul>
-                <li><strong>Federated Learning</strong> - Developed an FL framework for heterogeneous edge environment, achieving 60X model size reduction.</li>
-            </ul>
+            <div class="two-column">
+              <div class="left-column">
+                <img src="image/FL.png" alt="Research Image" />
+              </div>
+              <div class="right-column">
+                <ul>
+                  <li><strong>Federated Learning</strong></li>
+                  <div> Extended previous work by addressing system heterogeneity from multiple aspects simultaneously, 
+                    proposing a novel algorithm that reduces overhead. The approach leverages the characteristics of 
+                    classification models to aggregate similar components and can compress model sizes by over 60 times 
+                    while maintaining the original model's accuracy. </div>
+                  <div>Submitted to IEEE Transactions on Mobile Computing (TMC)</div>
+                </ul>
+              </div>
+            </div>
         </section>
         <section id="experience" class="container">
             <h2>Experience</h2>
