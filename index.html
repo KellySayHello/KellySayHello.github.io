@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <nav style="background-color: rgb(166, 165, 165);" class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+    <header>       
         <div class="container">
-            <h1 style="color: black;" >Chieh-Chi (Kelly) Yang</h1>
+            <h1 style="color: black; " >Chieh-Chi (Kelly) Yang</h1>
             <img src="image/me.jpg" width="300">
             <nav>
                 <ul>
-                    <li><a href="mailto:kellyworld3@gmail.com">Email</a></li>
+                    <li ><a href="mailto:kellyworld3@gmail.com">Email</a></li>
                     <li><a href="https://www.linkedin.com/in/kelly-yang-b86284255/" target="_blank">Linkedin</a></li>
                     <li><a href="https://github.com/KellySayHello" target="_blank">Github</a></li>
                     <li><a href="https://KellySayHello.github.io/CV.pdf" target="_blank">CV</a></li>
@@ -89,7 +98,7 @@
               <div class="right-column">
                 <ul>
                   <div><strong><a>Accelerator-agnostic healthcheck framework</a></strong> </div>
-                  <div><i>IBM Research intern project</i></div>
+                  <div><i>IBM Research intern project, Sept 2024</i></div>
                   <div><a href="https://docs.google.com/presentation/d/1wFrXn4wIHPpLSm57k22GTsPM6q3dyFpivqkY9fhT2-M/edit?usp=sharing">slides</a></div>
                   <div>Developed a comprehensive healthcheck framework for IBM's training clusters. 
                     The framework is developed in operator patterns and can be easily applied to various hardware device, including Nvidia's GPU and IBM AIU.  </div>
@@ -103,8 +112,8 @@
                 <div class="right-column">
                   <ul>
                     <div><strong><a>Gesture-Control Video Streaming Master</a></strong> </div>
-                    <div><i>Embedded System Lab final project</i></div>
-                    <div><a href="https://docs.google.com/presentation/d/1WA--AGeGdAIDSCOyNIQFAUT-dZnZ6YrAOZue6e1CReI/edit?usp=sharing">slides </a>/
+                    <div><i>Embedded System Lab final project, Fall 2023</i></div>
+                    <div><a href="https://docs.google.com/presentation/d/1pSSrjSoTYhlP1lhxDpzDK0MR20Lu6PqFLGIbW5LBw70/edit?usp=sharing">slides </a>/
                         <a href="https://github.com/stanthemaker/EmbeddedSystem/tree/main/finalProject">code</a></div>
                     <div>Developed a gesture-control video streaming system using rpi development board and layser sensors.</div>
                   </ul>
@@ -113,15 +122,49 @@
         </section>
         <section id="experience" class="container">
             <h2>Experience</h2>
-            <ul>
-                <li><strong>Accelerator Health Framework</strong> - Built a framework to automate GPU health checks, reducing time costs by 85% in IBM training clusters.</li>
-            </ul>
+            <div class="two-column">
+              <div class="left-column">
+                <img style="width:150px" src="image/IBM.jpg" alt="Research Image" />
+              </div>
+              <div class="right-column">
+                <ul>
+                  <div><strong>IBM Research</strong> </div>
+                  <div>Hybrid Cloud Research Intern</div>
+                  <div>Advised by: <a href="https://www.linkedin.com/in/sophia-wen-a416b852/">Mrs.Sophia Wen</a></div>
+                  <div><i>Yorktown Heights, NY, June 2024 - Sept 2024</i></div>
+                  <div>Research in Hybrid Cloud.</div>
+                </ul>
+              </div>
+            </div>
+            <div class="two-column">
+                <div class="left-column">
+                  <img style="width:150px" src="image/cmoney.png" alt="Research Image" />
+                </div>
+                <div class="right-column">
+                  <ul>
+                    <div><strong>CMoney Technology Coorperation</strong> </div>
+                    <div>Software Engineer Intern</div>
+                    <div><i>New Taipei City, July 2023 - April 2024</i></div>
+                    <div>Designed and maintained APIs, managing over 20 services using C#, MySQL, and MongoDB.
+                    </div>
+                  </ul>
+                </div>
+            </div>
         </section>
         <section id="education" class="container">
             <h2>Education</h2>
-            <ul>
-                <li><strong>National Taiwan University</strong></li>
-            </ul>
+            <div class="two-column">
+              <div class="left-column">
+                <img style="width:150px; align-items: right;" src="image/ntu.jpg" alt="Research Image" />
+              </div>
+              <div class="right-column">
+                <ul>
+                  <div><strong>National Taiwan University</strong> </div>
+                  <div>B.S. in Electrical Engineering</div>
+                  <div><i>Taipei City, Sept 2020 - June 2025</i></div>
+                </ul>
+              </div>
+            </div>
         </section>
     </main>
     

@@ -12,7 +12,7 @@ body {
 header {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 1rem 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -95,17 +95,18 @@ footer {
 }
 
 .left-column{
-    width: 200px;
+    width: 30%;
     padding: 0;
     margin: 0;
     
 }
 
 .left-column img {
- width: 100%;
- margin: 10px 0 0 0; 
-  height: auto;
-  padding: 0;
+    width: 300px;       /* Ensure the image fills the column's width */
+    height: auto;     /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit the fixed size */
+    margin: 10px 0 0 0;
+    padding: 0;
 }
 
 .right-column {
