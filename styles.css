@@ -94,15 +94,17 @@ footer {
   gap: 2px; /* Space between columns */
 }
 
-
-.left-column img {
-  margin: 10px 0 0 0; 
-  width: 20px;
-  height: auto;
-  padding: 0;
+.left-column{
+    width: 50px;
+    padding: 0;
+    margin: 10px 0 0 0; 
 }
 
-.right-column img {
+.left-column img {
+  height: auto;
+}
+
+.right-column {
     margin: 0;
     padding: 0;
 }
