@@ -97,11 +97,15 @@ footer {
 .left-column{
     width: 50px;
     padding: 0;
-    margin: 10px 0 0 0; 
+    margin: 0;
+    
 }
 
 .left-column img {
+ width: 100%;
+ margin: 10px 0 0 0; 
   height: auto;
+  padding: 0;
 }
 
 .right-column {
