@@ -91,7 +91,7 @@ footer {
 .two-column {
   display: flex;
   align-items: flex-start; /* Align items at the top */
-  gap: 20px; /* Space between columns */
+  gap: 2px; /* Space between columns */
 }
 
 
