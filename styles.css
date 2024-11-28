@@ -82,7 +82,7 @@ footer {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -97,7 +97,7 @@ footer {
 
 .left-column img {
   margin: 10px 0 0 0; 
-  width: 100%;
+  width: 20px;
   height: auto;
   padding: 0;
 }
